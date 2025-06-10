@@ -1,2 +1,2 @@
 # Apexrocks-and-Minerals
-Apex Rocks &amp; Minerals is a trusted supplier of premium Indian granite tiles, slabs, and natural stones, delivering high-quality products with precision and reliability.
+Apex Rocks &amp; Welcome to Apex Rocks & Minerals, a trusted name in premium Indian granite products. With exclusive mines like GEM RED GRANITE and partnerships with cutting-edge factories and quarries, we deliver top-quality tiles, slabs, and custom stonework globally. Committed to excellence in quality, quantity, and timely delivery, we combine decades of experience with modern craftsmanship to bring your vision to life—beautifully and reliably.
