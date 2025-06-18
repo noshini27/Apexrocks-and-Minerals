@@ -1,53 +1,79 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Apex Rocks</title>
-    <style>
-      body {
-        text-align: center;
-        font-family: Arial, sans-serif;
-      }
-      h1 {
-        font-size: 48px;
-        font-weight: bold;
-        font-style: italic;
-        margin-bottom: 100px;
-      }
-      p {
-        width: 60%;
-        margin: 0 auto 40px;
-        text-align: justify;
-        line-height: 1.6;
-      }
-      .nav-buttons a {
-        text-decoration: none;
-        background-color: #0077cc;
-        color: white;
-        padding: 10px 20px;
-        margin: 10px;
-        border-radius: 8px;
-        display: inline-block;
-        font-weight: bold;
-        transition: 0.3s;
-      }
-      .nav-buttons a:hover {
-        background-color: #005fa3;
-      }
-    </style>
-  </head>
-  <body>
-    <h1>Welcome to Apex Rocks!</h1>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Apex Rocks - Home</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: url('background.jpg') no-repeat center center fixed;
+      background-size: cover;
+      color: #333;
+    }
+
+    .container {
+      text-align: center;
+      padding: 100px 20px 0;
+    }
+
+    h1 {
+      font-size: 48px;
+      font-weight: bold;
+      font-style: italic;
+      margin-bottom: 100px; /* 5 lines approx */
+      color: white;
+      text-shadow: 2px 2px 8px rgba(0,0,0,0.5);
+    }
+
+    p {
+      font-size: 18px;
+      width: 60%;
+      margin: auto;
+      text-align: justify;
+      margin-bottom: 100px; /* 5 lines approx */
+      background-color: rgba(255, 255, 255, 0.8);
+      padding: 20px;
+      border-radius: 10px;
+    }
+
+    .buttons {
+      margin-top: 100px;
+    }
+
+    .button {
+      background-color: white;
+      color: #80471c;
+      border: 2px solid #80471c;
+      padding: 12px 24px;
+      font-size: 16px;
+      cursor: pointer;
+      border-radius: 8px;
+      margin: 10px;
+      transition: background-color 0.3s, color 0.3s;
+      text-decoration: none;
+    }
+
+    .button:hover {
+      background-color: #80471c;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Welcome to Apex Rocks & Minerals</h1>
 
     <p>
-      Welcome to Apex Rocks & Minerals, a trusted name in premium Indian granite products...
+      Welcome to Apex Rocks & Minerals, a trusted name in premium Indian granite products. With exclusive mines like GEM RED GRANITE and partnerships with cutting-edge factories and quarries, we deliver top-quality tiles, slabs, and custom stonework globally. Committed to excellence in quality, quantity, and timely delivery, we combine decades of experience with modern craftsmanship to bring your vision to life—beautifully and reliably.
     </p>
 
-    <!-- Navigation Buttons -->
-    <div class="nav-buttons">
-      <a href="about.html">About</a>
-      <a href="gallery.html">Gallery</a>
-      <a href="contact.html">Contact</a>
+    <div class="buttons">
+      <a href="#about" class="button">About Us</a>
+      <a href="#services" class="button">Our Services</a>
+      <a href="#gallery" class="button">Gallery</a>
+      <a href="#contact" class="button">Contact</a>
     </div>
-  </body>
+  </div>
+</body>
 </html>
-
