@@ -31,19 +31,20 @@
       margin-top: 80px;
     }
     .button {
-      background-color: #fff;
-      color: #80471c;
-      border: 2px solid #80471c;
+      background-color: #80471c;
+      color: #fff;
+      border: none;
       padding: 12px 20px;
       margin: 10px;
       border-radius: 8px;
       cursor: pointer;
       font-size: 16px;
-      transition: all 0.3s ease;
+      transition: background-color 0.3s ease;
+      text-decoration: none;
+      display: inline-block;
     }
     .button:hover {
-      background-color: #80471c;
-      color: #fff;
+      background-color: #5e3215;
     }
   </style>
 </head>
@@ -57,10 +58,10 @@
     and reliably.
   </p>
   <div class="button-container">
-    <button class="button">About Us</button>
-    <button class="button">Our Services</button>
-    <button class="button">Gallery</button>
-    <button class="button">Contact</button>
+    <a class="button" href="about.html">About Us</a>
+    <a class="button" href="service.html">Our Services</a>
+    <a class="button" href="gallery.html">Gallery</a>
+    <a class="button" href="contact.html">Contact</a>
   </div>
 </body>
 </html>
