@@ -3,176 +3,75 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>About - Apex Rocks</title>
+  <title>About Us - Apex Rocks</title>
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
 
     body {
       margin: 0;
       font-family: 'Quicksand', sans-serif;
-      background-color: #fff;
+      background-color: #f9f3dc;
       color: #1B4D3E;
     }
 
-    .image-section {
-      background-image: url('https://raw.githubusercontent.com/noshini27/Apexrocks-and-Minerals/main/bg.png');
+    .header-section {
+      background-image: url('image01.jpg');
       background-size: cover;
       background-position: center;
-      height: 50vh;
-      display: flex;
-      justify-content: center;
-      align-items: center;
       text-align: center;
+      padding: 140px 20px 60px;
     }
 
-    .image-section h1 {
-      font-size: 64px;
+    .header-section h1 {
+      font-size: 80px;
       color: #1B4D3E;
-      text-shadow:
-        -2px -2px 0 #E6E6FA,
-         2px -2px 0 #E6E6FA,
-        -2px  2px 0 #E6E6FA,
-         2px  2px 0 #E6E6FA;
+      text-shadow: -1px -1px 0 #E6E6FA, 1px -1px 0 #E6E6FA, -1px 1px 0 #E6E6FA, 1px 1px 0 #E6E6FA;
+      margin: 0;
     }
 
     .content-section {
-      padding: 60px 10%;
-      background-color: #1B4D3E;
       display: flex;
-      justify-content: space-between;
-      flex-wrap: wrap;
+      justify-content: space-around;
+      padding: 80px 40px;
+      background-color: #1B4D3E;
     }
 
     .column {
-      flex: 0 0 30%;
-      margin-bottom: 40px;
+      width: 30%;
+      text-align: justify;
+      color: #1B4D3E;
+      background-color: #f9f3dc;
+      padding: 20px;
+      border-radius: 8px;
     }
 
     .column h2 {
       color: #E6E6FA;
-      text-shadow:
-        -1px -1px 0 #1B4D3E,
-         1px -1px 0 #1B4D3E,
-        -1px  1px 0 #1B4D3E,
-         1px  1px 0 #1B4D3E;
-    }
-
-    .column p {
-      color: #1B4D3E;
-      background-color: #E6E6FA;
-      padding: 15px;
-      border-radius: 8px;
-      line-height: 1.7;
-      text-align: justify;
-    }
-
-    @media screen and (max-width: 768px) {
-      .column {
-        flex: 0 0 100%;
-      }
+      text-shadow: -1px -1px 0 #1B4D3E, 1px -1px 0 #1B4D3E, -1px 1px 0 #1B4D3E, 1px 1px 0 #1B4D3E;
+      font-size: 24px;
+      text-align: center;
     }
   </style>
 </head>
 <body>
-
-  <div class="image-section">
+  <div class="header-section">
     <h1>About Us</h1>
   </div>
-
   <div class="content-section">
     <div class="column">
       <h2>PREMIUM GRANITE AND MARBLE PRODUCTS</h2>
-      <p>
-        At Apex Rocks & Minerals, we specialize in offering superior-grade granite and marble sourced from exclusive mines and trusted quarries. Our products, including slabs, tiles, and cut-to-size options, are crafted to meet international standards—ensuring durability, elegance, and long-lasting performance for all residential, commercial, and landscaping needs.
-      </p>
+      <p>At Apex Rocks & Minerals, we specialize in offering superior-grade granite and marble sourced from exclusive mines and trusted quarries. Our products, including slabs, tiles, and cut-to-size options, are crafted to meet international standards—ensuring durability, elegance, and long-lasting performance for all residential, commercial, and landscaping needs.</p>
     </div>
     <div class="column">
       <h2>EXPERIENCED AND RELIABLE</h2>
-      <p>
-        With over three decades of expertise, Apex Rocks & Minerals stands as a pioneer in the Indian stone industry. Our commitment to quality, timely delivery, and customer satisfaction has made us a dependable partner for builders, architects, and global clients seeking consistency, innovation, and excellence in every project.
-      </p>
+      <p>With over three decades of expertise, Apex Rocks & Minerals stands as a pioneer in the Indian stone industry. Our commitment to quality, timely delivery, and customer satisfaction has made us a dependable partner for builders, architects, and global clients seeking consistency, innovation, and excellence in every project.</p>
     </div>
     <div class="column">
       <h2>CUSTOMIZED SOLUTIONS</h2>
-      <p>
-        Understanding that each project is unique, we offer tailored solutions—from design consultation and material selection to precise fabrication and installation. Whether it’s a large commercial build or a personal space upgrade, our team ensures your vision is realized with the right textures, colors, and finishes to suit your exact specifications.
-      </p>
+      <p>Understanding that each project is unique, we offer tailored solutions—from design consultation and material selection to precise fabrication and installation. Whether it’s a large commercial build or a personal space upgrade, our team ensures your vision is realized with the right textures, colors, and finishes to suit your exact specifications.</p>
     </div>
   </div>
-
 </body>
 </html>
 
-
-    .row {
-      display: flex;
-      justify-content: space-around;
-      align-items: center;
-      flex-wrap: wrap;
-      padding: 30px;
-    }
-
-    .column {
-      flex: 1 1 300px;
-      max-width: 30%;
-      text-align: center;
-      margin: 15px;
-    }
-
-    .column img {
-      width: 100%;
-      height: auto;
-      border-radius: 8px;
-      box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
-    }
-
-    .column h3 {
-      font-size: 20px;
-      margin: 15px 0 10px;
-      font-weight: bold;
-      text-transform: uppercase;
-    }
-
-    @media screen and (max-width: 768px) {
-      .column {
-        max-width: 80%;
-      }
-    }
-  </style>
-</head>
-<body>
-
-  <!-- About Us Section -->
-  <div class="section-title">ABOUT US</div>
-  <div class="row">
-    <div class="column">
-      <img src="your-aboutus-image.png" alt="About Us Image">
-      <h3>Premium Granite and Marble</h3>
-      <p>
-        At Apex Rocks & Minerals, we offer superior-grade granite and marble from exclusive mines and trusted quarries, delivering durability and elegance globally.
-      </p>
-    </div>
-  </div>
-
-  <!-- Our Services Section -->
-  <div class="section-title">OUR SERVICES</div>
-  <div class="row">
-    <div class="column">
-      <img src="your-service1.png" alt="Custom Fabrication">
-      <h3>Custom Fabrication</h3>
-      <p>
-        Precision cutting and shaping to meet your design needs with skilled craftsmanship.
-      </p>
-    </div>
-    <div class="column">
-      <img src="your-service2.png" alt="Design Consultation">
-      <h3>Design Consultation</h3>
-      <p>
-        Work with our experts to create designs that reflect your taste and functionality.
-      </p>
-    </div>
-  </div>
-
-</body>
-</html>
 
