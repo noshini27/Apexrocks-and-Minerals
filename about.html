@@ -11,65 +11,117 @@
       margin: 0;
       font-family: 'Quicksand', sans-serif;
       background-color: #f9f3dc;
-      color: #1B4D3E;
     }
 
-    .header-section {
-      background-image: url('image01.jpg');
-      background-size: cover;
-      background-position: center;
-      text-align: center;
-      padding: 140px 20px 60px;
+    /* Top section with image */
+    .about-header {
+      width: 100%;
+      height: 90vh;
+      background: url('image01.jpg') no-repeat center center/cover;
+      display: flex;
+      align-items: center;
+      justify-content: center;
     }
 
-    .header-section h1 {
+    .about-header h1 {
       font-size: 80px;
       color: #1B4D3E;
-      text-shadow: -1px -1px 0 #E6E6FA, 1px -1px 0 #E6E6FA, -1px 1px 0 #E6E6FA, 1px 1px 0 #E6E6FA;
-      margin: 0;
+      text-shadow:
+        -1px -1px 0 #E6E6FA,
+         1px -1px 0 #E6E6FA,
+        -1px  1px 0 #E6E6FA,
+         1px  1px 0 #E6E6FA;
+      background-color: rgba(255, 255, 255, 0.4);
+      padding: 20px 40px;
+      border-radius: 12px;
     }
 
+    /* Bottom section with three blocks */
     .content-section {
       display: flex;
       justify-content: space-around;
+      flex-wrap: wrap;
       padding: 80px 40px;
       background-color: #1B4D3E;
     }
 
     .column {
       width: 30%;
+      min-width: 250px;
       text-align: justify;
-      color: #1B4D3E;
       background-color: #f9f3dc;
       padding: 20px;
-      border-radius: 8px;
+      margin: 10px;
+      border-radius: 10px;
+      box-shadow: 0 0 8px rgba(0,0,0,0.1);
     }
 
     .column h2 {
       color: #E6E6FA;
-      text-shadow: -1px -1px 0 #1B4D3E, 1px -1px 0 #1B4D3E, -1px 1px 0 #1B4D3E, 1px 1px 0 #1B4D3E;
-      font-size: 24px;
+      text-shadow:
+        -1px -1px 0 #1B4D3E,
+         1px -1px 0 #1B4D3E,
+        -1px  1px 0 #1B4D3E,
+         1px  1px 0 #1B4D3E;
       text-align: center;
+      font-size: 22px;
+    }
+
+    .column p {
+      color: #1B4D3E;
+      font-size: 16px;
+      line-height: 1.7;
+    }
+
+    @media (max-width: 900px) {
+      .content-section {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .column {
+        width: 90%;
+      }
     }
   </style>
 </head>
 <body>
-  <div class="header-section">
+
+  <!-- Top Image and Title -->
+  <div class="about-header">
     <h1>About Us</h1>
   </div>
+
+  <!-- Bottom Text Section -->
   <div class="content-section">
     <div class="column">
       <h2>PREMIUM GRANITE AND MARBLE PRODUCTS</h2>
-      <p>At Apex Rocks & Minerals, we specialize in offering superior-grade granite and marble sourced from exclusive mines and trusted quarries. Our products, including slabs, tiles, and cut-to-size options, are crafted to meet international standards—ensuring durability, elegance, and long-lasting performance for all residential, commercial, and landscaping needs.</p>
+      <p>
+        At Apex Rocks & Minerals, we specialize in offering superior-grade granite and marble sourced
+        from exclusive mines and trusted quarries. Our products, including slabs, tiles, and cut-to-size
+        options, are crafted to meet international standards—ensuring durability, elegance, and long-lasting
+        performance for all residential, commercial, and landscaping needs.
+      </p>
     </div>
     <div class="column">
       <h2>EXPERIENCED AND RELIABLE</h2>
-      <p>With over three decades of expertise, Apex Rocks & Minerals stands as a pioneer in the Indian stone industry. Our commitment to quality, timely delivery, and customer satisfaction has made us a dependable partner for builders, architects, and global clients seeking consistency, innovation, and excellence in every project.</p>
+      <p>
+        With over three decades of expertise, Apex Rocks & Minerals stands as a pioneer in the Indian
+        stone industry. Our commitment to quality, timely delivery, and customer satisfaction has made
+        us a dependable partner for builders, architects, and global clients seeking consistency,
+        innovation, and excellence in every project.
+      </p>
     </div>
     <div class="column">
       <h2>CUSTOMIZED SOLUTIONS</h2>
-      <p>Understanding that each project is unique, we offer tailored solutions—from design consultation and material selection to precise fabrication and installation. Whether it’s a large commercial build or a personal space upgrade, our team ensures your vision is realized with the right textures, colors, and finishes to suit your exact specifications.</p>
+      <p>
+        Understanding that each project is unique, we offer tailored solutions—from design consultation
+        and material selection to precise fabrication and installation. Whether it’s a large commercial
+        build or a personal space upgrade, our team ensures your vision is realized with the right textures,
+        colors, and finishes to suit your exact specifications.
+      </p>
     </div>
   </div>
+
 </body>
 </html>
