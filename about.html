@@ -2,20 +2,107 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Apex Rocks - About Us</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About - Apex Rocks</title>
   <style>
+    @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+
     body {
-      font-family: Arial, sans-serif;
       margin: 0;
-      background-color: #fce393;
+      font-family: 'Quicksand', sans-serif;
+      background-color: #fff;
+      color: #1B4D3E;
     }
 
-    .section-title {
+    .image-section {
+      background-image: url('https://raw.githubusercontent.com/noshini27/Apexrocks-and-Minerals/main/bg.png');
+      background-size: cover;
+      background-position: center;
+      height: 50vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
       text-align: center;
-      font-size: 28px;
-      font-weight: bold;
-      padding: 40px 0 20px;
     }
+
+    .image-section h1 {
+      font-size: 64px;
+      color: #1B4D3E;
+      text-shadow:
+        -2px -2px 0 #E6E6FA,
+         2px -2px 0 #E6E6FA,
+        -2px  2px 0 #E6E6FA,
+         2px  2px 0 #E6E6FA;
+    }
+
+    .content-section {
+      padding: 60px 10%;
+      background-color: #1B4D3E;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+
+    .column {
+      flex: 0 0 30%;
+      margin-bottom: 40px;
+    }
+
+    .column h2 {
+      color: #E6E6FA;
+      text-shadow:
+        -1px -1px 0 #1B4D3E,
+         1px -1px 0 #1B4D3E,
+        -1px  1px 0 #1B4D3E,
+         1px  1px 0 #1B4D3E;
+    }
+
+    .column p {
+      color: #1B4D3E;
+      background-color: #E6E6FA;
+      padding: 15px;
+      border-radius: 8px;
+      line-height: 1.7;
+      text-align: justify;
+    }
+
+    @media screen and (max-width: 768px) {
+      .column {
+        flex: 0 0 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="image-section">
+    <h1>About Us</h1>
+  </div>
+
+  <div class="content-section">
+    <div class="column">
+      <h2>PREMIUM GRANITE AND MARBLE PRODUCTS</h2>
+      <p>
+        At Apex Rocks & Minerals, we specialize in offering superior-grade granite and marble sourced from exclusive mines and trusted quarries. Our products, including slabs, tiles, and cut-to-size options, are crafted to meet international standards—ensuring durability, elegance, and long-lasting performance for all residential, commercial, and landscaping needs.
+      </p>
+    </div>
+    <div class="column">
+      <h2>EXPERIENCED AND RELIABLE</h2>
+      <p>
+        With over three decades of expertise, Apex Rocks & Minerals stands as a pioneer in the Indian stone industry. Our commitment to quality, timely delivery, and customer satisfaction has made us a dependable partner for builders, architects, and global clients seeking consistency, innovation, and excellence in every project.
+      </p>
+    </div>
+    <div class="column">
+      <h2>CUSTOMIZED SOLUTIONS</h2>
+      <p>
+        Understanding that each project is unique, we offer tailored solutions—from design consultation and material selection to precise fabrication and installation. Whether it’s a large commercial build or a personal space upgrade, our team ensures your vision is realized with the right textures, colors, and finishes to suit your exact specifications.
+      </p>
+    </div>
+  </div>
+
+</body>
+</html>
+
 
     .row {
       display: flex;
