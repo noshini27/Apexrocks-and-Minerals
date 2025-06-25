@@ -41,7 +41,27 @@
       padding: 80px 40px;
       background-color: #1B4D3E;
     }
-
+    .button {
+      background-color: #E6E6FA;
+      color: #1B4D3E;
+      border: none;
+      padding: 12px 20px;
+      margin: 10px;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 16px;
+      transition: background-color 0.3s ease;
+      text-decoration: none;
+      display: inline-block;
+    }
+    .button:hover {
+      background-color: #5e3215;
+    }
+    .back-button-container {
+      position: fixed;
+      bottom: 20px;
+      left: 20px;
+    }
     .column {
       width: 30%;
       min-width: 250px;
@@ -51,6 +71,7 @@
       margin: 10px;
       border-radius: 10px;
       box-shadow: 0 0 8px rgba(0,0,0,0.1);
+      color:#E6E6FA
     }
 
     .column h2 {
@@ -119,6 +140,8 @@
       </p>
     </div>
   </div>
-
+<div class="back-button-container">
+  <a href="index.html" class="button">Back</a>
+</div>
 </body>
 </html>
