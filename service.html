@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Our Services - Apex Rocks</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+
+    body {
+      margin: 0;
+      font-family: 'Quicksand', sans-serif;
+      background-color: #f9f3dc;
+    }
+
+    /* Top section with image */
+    .services-header {
+      width: 100%;
+      height: 50vh;
+      background: url('image02.jpg') no-repeat center center/cover;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .services-header h1 {
+      font-size: 80px;
+      color: #1B4D3E;
+      text-shadow:
+        -1px -1px 0 #E6E6FA,
+         1px -1px 0 #E6E6FA,
+        -1px  1px 0 #E6E6FA,
+         1px  1px 0 #E6E6FA;
+      padding: 20px 40px;
+      border-radius: 12px;
+    }
+
+    /* Services section */
+    .content-section {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      padding: 80px 40px;
+      background-color: #1B4D3E;
+    }
+
+    .column {
+      width: 30%;
+      min-width: 250px;
+      text-align: justify;
+      background-color: #f9f3dc;
+      padding: 20px;
+      margin: 10px;
+      border-radius: 10px;
+      box-shadow: 0 0 8px rgba(0,0,0,0.1);
+    }
+
+    .column h2 {
+      color: #E6E6FA;
+      text-shadow:
+        -1px -1px 0 #1B4D3E,
+         1px -1px 0 #1B4D3E,
+        -1px  1px 0 #1B4D3E,
+         1px  1px 0 #1B4D3E;
+      text-align: center;
+      font-size: 22px;
+    }
+
+    .column img {
+      display: block;
+      margin: 15px auto;
+      width: 100%;
+      border-radius: 10px;
+      max-height: 180px;
+      object-fit: cover;
+    }
+
+    .column p {
+      color: #1B4D3E;
+      font-size: 16px;
+      line-height: 1.7;
+    }
+
+    @media (max-width: 900px) {
+      .content-section {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .column {
+        width: 90%;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Top Image and Title -->
+  <div class="services-header">
+    <h1>Our Services</h1>
+  </div>
+
+  <!-- Services Section -->
+  <div class="content-section">
+    <div class="column">
+      <h2>DESIGN & CONSULTATION</h2>
+      <img src="img1.jpg" alt="Design & Consultation">
+      <p>
+        Our team provides expert design advice tailored to your architectural vision. Whether you are building a residential space or a commercial project, our experts assist in material selection, texture pairing, and color matching to elevate your project's aesthetic and functionality.
+      </p>
+    </div>
+    <div class="column">
+      <h2>PRECISION FABRICATION</h2>
+      <img src="img2.jpg" alt="Precision Fabrication">
+      <p>
+        With cutting-edge tools and skilled craftsmanship, we deliver precise granite and marble cuts to meet your exact specifications. Every slab or tile goes through stringent quality checks ensuring uniformity, consistency, and structural perfection across batches.
+      </p>
+    </div>
+    <div class="column">
+      <h2>GLOBAL DELIVERY & SUPPORT</h2>
+      <img src="img3.jpg" alt="Global Delivery">
+      <p>
+        We ensure safe packaging, reliable shipping, and on-time delivery worldwide. Our logistics team coordinates end-to-end support, from customs documentation to secure transit, guaranteeing a seamless experience for our global clientele.
+      </p>
+    </div>
+  </div>
+
+</body>
+</html>
