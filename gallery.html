@@ -1,3 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Gallery - Apex Rocks</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+
+    body {
+      margin: 0;
+      font-family: 'Quicksand', sans-serif;
+      background-color: #f9f3dc;
+    }
+
+    /* Header Section */
+    .gallery-header {
+      width: 100%;
+      height: 50vh;
+      background: url('image03.jpg') no-repeat center center/cover;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .gallery-header h1 {
+      font-size: 80px;
+      color: #1B4D3E;
+      text-shadow:
+        -1px -1px 0 #E6E6FA,
+         1px -1px 0 #E6E6FA,
+        -1px  1px 0 #E6E6FA,
+         1px  1px 0 #E6E6FA;
+    }
+
+    /* Gallery Layout */
+    .gallery-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 20px;
+      padding: 60px;
+      background-color: #FDE7A2;
+    }
+
+    .gallery-container img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+      box-shadow: 0 0 8px rgba(0,0,0,0.15);
+    }
+
+    /* Back Button Styling */
+    .button-container {
+      text-align: left;
+      margin: 40px;
+    }
+
+    .button {
+      background-color: #E6E6FA;
+      color: #1B4D3E;
+      border: none;
+      padding: 12px 20px;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 16px;
+      text-decoration: none;
+      transition: background-color 0.3s ease;
+    }
+
+    .button:hover {
+      background-color: #5e3215;
+      color: white;
+    }
+
+    @media (max-width: 768px) {
+      .gallery-header h1 {
+        font-size: 48px;
+        text-align: center;
+        padding: 0 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Top Banner -->
+  <div class="gallery-header">
+    <h1>Gallery</h1>
+  </div>
+
+  <!-- Gallery Grid -->
+  <div class="gallery-container">
+    <img src="gal1.jpg" alt="Gallery Image 1">
+    <img src="gal2.jpg" alt="Gallery Image 2">
+    <img src="gal3.jpg" alt="Gallery Image 3">
+    <img src="gal4.jpg" alt="Gallery Image 4">
+    <img src="gal5.jpg" alt="Gallery Image 5">
+    <img src="gal6.jpg" alt="Gallery Image 6">
+    <img src="gal7.jpg" alt="Gallery Image 7">
+    <img src="gal8.jpg" alt="Gallery Image 8">
+    <img src="gal9.jpg" alt="Gallery Image 9">
+  </div>
+
+  <!-- Back Button -->
+  <div class="button-container">
+    <a href="index.html" class="button">Back</a>
+  </div>
+
+</body>
 </html>
+
